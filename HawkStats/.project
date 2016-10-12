@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>HawkStats</name>
+	<comment></comment>
+	<projects>
+		<project>Common</project>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>db/derby.jar</name>
+			<type>1</type>
+			<location>C:/Program Files/Java/jdk1.8.0_65/db/lib/derby.jar</location>
+		</link>
+	</linkedResources>
+</projectDescription>
