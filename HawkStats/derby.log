@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Sun Nov 05 23:23:01 EST 2017:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.11.1.2 - (1629631): instance a816c00e-015f-8f91-3cdd-00000676ea68 
+on database directory C:\Users\Dad\git\HawkStats\HawkStats\db\devHawkStatsDb with class loader sun.misc.Launcher$AppClassLoader@12a3a380 
+Loaded from file:/C:/Program%20Files/Java/jdk1.8.0_65/db/lib/derby.jar
+java.vendor=Oracle Corporation
+java.runtime.version=1.8.0_65-b17
+user.dir=C:\Users\Dad\git\HawkStats\HawkStats
+os.name=Windows 10
+os.arch=amd64
+os.version=10.0
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

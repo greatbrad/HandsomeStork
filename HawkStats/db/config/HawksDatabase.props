@@ -1,0 +1,8 @@
+#properties for the Winterhawks database
+databaseName="HawksDB";
+Database.DBType="Derby";
+user="hawksDev";
+password="hawks2016";
+Database.Schema="DEV";
+Database.DMCLass="org.apache.derby.jdbc.EmbeddedDriver"
+Database.SQLStatementFile="hawksSQL.props"

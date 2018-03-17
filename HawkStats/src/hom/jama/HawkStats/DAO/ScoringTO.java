@@ -3,236 +3,155 @@ package hom.jama.HawkStats.DAO;
 import hom.jama.common.db.TransferObject;
 
 public class ScoringTO extends TransferObject {
-private String SCORING_GAME_NUM;
-private String SCORING_FOR_AGAINST;
-private String SCORING_GOAL_SCORER;
-private String SCORING_ASSIST_1;
-private String SCORING_ASSIST_2;
-private String SCORING_GOAL_TYPE;
-private String SCORING_ON_ICE_PLAYER_1;
-private String SCORING_ON_ICE_PLAYER_2;
-private String SCORING_ON_ICE_PLAYER_3;
-private String SCORING_ON_ICE_PLAYER_4;
-private String SCORING_ON_ICE_PLAYER_5;
-private String SCORING_ON_ICE_PLAYER_6;
-private String SCORING_SHOT_TYPE;
-private String SCORING_GOALIE;
-private String SCORING_PERIOD;
+private String game_num;
+private String goal_scorer;
+private String goal_assist_1;
+private String goal_assist_2;
+private String goal_location;
+    private String for_against;
+    private String goal_type;
+    private String goal_on_ice_player_1;
+    private String goal_on_ice_player_2;
+    private String goal_on_ice_player_3;
+    private String goal_on_ice_player_4;
+    private String goal_on_ice_player_5;
+    private String goal_on_ice_player_6;
+    private String shot_type;
+    private String scored_goalie;
+    private String goal_period;
 
-	@Override
-	protected void init() {
+	protected void reset(String s) {
 		// TODO Auto-generated method stub
 
 	}
 
-	/**
-	 * @return the sCORING_GAME_NUM
-	 */
-	public String getSCORING_GAME_NUM() {
-		return SCORING_GAME_NUM;
-	}
+    public String getgame_num() {
+        return game_num;
+    }
 
-	/**
-	 * @param sCORING_GAME_NUM the sCORING_GAME_NUM to set
-	 */
-	public void setSCORING_GAME_NUM(String sCORING_GAME_NUM) {
-		SCORING_GAME_NUM = sCORING_GAME_NUM;
-	}
+    public void setgame_num(String game_num) {
+        this.game_num = game_num;
+    }
 
-	/**
-	 * @return the sCORING_FOR_AGAINST
-	 */
-	public String getSCORING_FOR_AGAINST() {
-		return SCORING_FOR_AGAINST;
-	}
+    public String getgoal_scorer() {
+        return goal_scorer;
+    }
 
-	/**
-	 * @param sCORING_FOR_AGAINST the sCORING_FOR_AGAINST to set
-	 */
-	public void setSCORING_FOR_AGAINST(String sCORING_FOR_AGAINST) {
-		SCORING_FOR_AGAINST = sCORING_FOR_AGAINST;
-	}
+    public void setgoal_scorer(String goal_scorer) {
+        this.goal_scorer = goal_scorer;
+    }
 
-	/**
-	 * @return the sCORING_GOAL_SCORER
-	 */
-	public String getSCORING_GOAL_SCORER() {
-		return SCORING_GOAL_SCORER;
-	}
+    public String getgoal_assist_1() {
+        return goal_assist_1;
+    }
 
-	/**
-	 * @param sCORING_GOAL_SCORER the sCORING_GOAL_SCORER to set
-	 */
-	public void setSCORING_GOAL_SCORER(String sCORING_GOAL_SCORER) {
-		SCORING_GOAL_SCORER = sCORING_GOAL_SCORER;
-	}
+    public void setgoal_assist_1(String goal_assist_1) {
+        this.goal_assist_1 = goal_assist_1;
+    }
 
-	/**
-	 * @return the sCORING_ASSIST_1
-	 */
-	public String getSCORING_ASSIST_1() {
-		return SCORING_ASSIST_1;
-	}
+    public String getgoal_assist_2() {
+        return goal_assist_2;
+    }
 
-	/**
-	 * @param sCORING_ASSIST_1 the sCORING_ASSIST_1 to set
-	 */
-	public void setSCORING_ASSIST_1(String sCORING_ASSIST_1) {
-		SCORING_ASSIST_1 = sCORING_ASSIST_1;
-	}
+    public void setgoal_assist_2(String goal_assist_2) {
+        this.goal_assist_2 = goal_assist_2;
+    }
 
-	/**
-	 * @return the sCORING_ASSIST_2
-	 */
-	public String getSCORING_ASSIST_2() {
-		return SCORING_ASSIST_2;
-	}
+    public String getgoal_location() {
+        return goal_location;
+    }
 
-	/**
-	 * @param sCORING_ASSIST_2 the sCORING_ASSIST_2 to set
-	 */
-	public void setSCORING_ASSIST_2(String sCORING_ASSIST_2) {
-		SCORING_ASSIST_2 = sCORING_ASSIST_2;
-	}
+    public void setgoal_location(String goal_location) {
+        this.goal_location = goal_location;
+    }
 
-	/**
-	 * @return the sCORING_GOAL_TYPE
-	 */
-	public String getSCORING_GOAL_TYPE() {
-		return SCORING_GOAL_TYPE;
-	}
+    public String getfor_against() {
+        return for_against;
+    }
 
-	/**
-	 * @param sCORING_GOAL_TYPE the sCORING_GOAL_TYPE to set
-	 */
-	public void setSCORING_GOAL_TYPE(String sCORING_GOAL_TYPE) {
-		SCORING_GOAL_TYPE = sCORING_GOAL_TYPE;
-	}
+    public void setfor_against(String for_against) {
+        this.for_against = for_against;
+    }
 
-	/**
-	 * @return the sCORING_ON_ICE_PLAYER_1
-	 */
-	public String getSCORING_ON_ICE_PLAYER_1() {
-		return SCORING_ON_ICE_PLAYER_1;
-	}
+    public String getgoal_type() {
+        return goal_type;
+    }
 
-	/**
-	 * @param sCORING_ON_ICE_PLAYER_1 the sCORING_ON_ICE_PLAYER_1 to set
-	 */
-	public void setSCORING_ON_ICE_PLAYER_1(String sCORING_ON_ICE_PLAYER_1) {
-		SCORING_ON_ICE_PLAYER_1 = sCORING_ON_ICE_PLAYER_1;
-	}
+    public void setgoal_type(String goal_type) {
+        this.goal_type = goal_type;
+    }
 
-	/**
-	 * @return the sCORING_ON_ICE_PLAYER_2
-	 */
-	public String getSCORING_ON_ICE_PLAYER_2() {
-		return SCORING_ON_ICE_PLAYER_2;
-	}
+    public String getgoal_on_ice_player_1() {
+        return goal_on_ice_player_1;
+    }
 
-	/**
-	 * @param sCORING_ON_ICE_PLAYER_2 the sCORING_ON_ICE_PLAYER_2 to set
-	 */
-	public void setSCORING_ON_ICE_PLAYER_2(String sCORING_ON_ICE_PLAYER_2) {
-		SCORING_ON_ICE_PLAYER_2 = sCORING_ON_ICE_PLAYER_2;
-	}
+    public void setgoal_on_ice_player_1(String goal_on_ice_player_1) {
+        this.goal_on_ice_player_1 = goal_on_ice_player_1;
+    }
 
-	/**
-	 * @return the sCORING_ON_ICE_PLAYER_3
-	 */
-	public String getSCORING_ON_ICE_PLAYER_3() {
-		return SCORING_ON_ICE_PLAYER_3;
-	}
+    public String getgoal_on_ice_player_2() {
+        return goal_on_ice_player_2;
+    }
 
-	/**
-	 * @param sCORING_ON_ICE_PLAYER_3 the sCORING_ON_ICE_PLAYER_3 to set
-	 */
-	public void setSCORING_ON_ICE_PLAYER_3(String sCORING_ON_ICE_PLAYER_3) {
-		SCORING_ON_ICE_PLAYER_3 = sCORING_ON_ICE_PLAYER_3;
-	}
+    public void setgoal_on_ice_player_2(String goal_on_ice_player_2) {
+        this.goal_on_ice_player_2 = goal_on_ice_player_2;
+    }
 
-	/**
-	 * @return the sCORING_ON_ICE_PLAYER_4
-	 */
-	public String getSCORING_ON_ICE_PLAYER_4() {
-		return SCORING_ON_ICE_PLAYER_4;
-	}
+    public String getgoal_on_ice_player_3() {
+        return goal_on_ice_player_3;
+    }
 
-	/**
-	 * @param sCORING_ON_ICE_PLAYER_4 the sCORING_ON_ICE_PLAYER_4 to set
-	 */
-	public void setSCORING_ON_ICE_PLAYER_4(String sCORING_ON_ICE_PLAYER_4) {
-		SCORING_ON_ICE_PLAYER_4 = sCORING_ON_ICE_PLAYER_4;
-	}
+    public void setgoal_on_ice_player_3(String goal_on_ice_player_3) {
+        this.goal_on_ice_player_3 = goal_on_ice_player_3;
+    }
 
-	/**
-	 * @return the sCORING_ON_ICE_PLAYER_5
-	 */
-	public String getSCORING_ON_ICE_PLAYER_5() {
-		return SCORING_ON_ICE_PLAYER_5;
-	}
+    public String getgoal_on_ice_player_4() {
+        return goal_on_ice_player_4;
+    }
 
-	/**
-	 * @param sCORING_ON_ICE_PLAYER_5 the sCORING_ON_ICE_PLAYER_5 to set
-	 */
-	public void setSCORING_ON_ICE_PLAYER_5(String sCORING_ON_ICE_PLAYER_5) {
-		SCORING_ON_ICE_PLAYER_5 = sCORING_ON_ICE_PLAYER_5;
-	}
+    public void setgoal_on_ice_player_4(String goal_on_ice_player_4) {
+        this.goal_on_ice_player_4 = goal_on_ice_player_4;
+    }
 
-	/**
-	 * @return the sCORING_ON_ICE_PLAYER_6
-	 */
-	public String getSCORING_ON_ICE_PLAYER_6() {
-		return SCORING_ON_ICE_PLAYER_6;
-	}
+    public String getgoal_on_ice_player_5() {
+        return goal_on_ice_player_5;
+    }
 
-	/**
-	 * @param sCORING_ON_ICE_PLAYER_6 the sCORING_ON_ICE_PLAYER_6 to set
-	 */
-	public void setSCORING_ON_ICE_PLAYER_6(String sCORING_ON_ICE_PLAYER_6) {
-		SCORING_ON_ICE_PLAYER_6 = sCORING_ON_ICE_PLAYER_6;
-	}
+    public void setgoal_on_ice_player_5(String goal_on_ice_player_5) {
+        this.goal_on_ice_player_5 = goal_on_ice_player_5;
+    }
 
-	/**
-	 * @return the sCORING_SHOT_TYPE
-	 */
-	public String getSCORING_SHOT_TYPE() {
-		return SCORING_SHOT_TYPE;
-	}
+    public String getgoal_on_ice_player_6() {
+        return goal_on_ice_player_6;
+    }
 
-	/**
-	 * @param sCORING_SHOT_TYPE the sCORING_SHOT_TYPE to set
-	 */
-	public void setSCORING_SHOT_TYPE(String sCORING_SHOT_TYPE) {
-		SCORING_SHOT_TYPE = sCORING_SHOT_TYPE;
-	}
+    public void setgoal_on_ice_player_6(String goal_on_ice_player_6) {
+        this.goal_on_ice_player_6 = goal_on_ice_player_6;
+    }
 
-	/**
-	 * @return the sCORING_GOALIE
-	 */
-	public String getSCORING_GOALIE() {
-		return SCORING_GOALIE;
-	}
+    public String getshot_type() {
+        return shot_type;
+    }
 
-	/**
-	 * @param sCORING_GOALIE the sCORING_GOALIE to set
-	 */
-	public void setSCORING_GOALIE(String sCORING_GOALIE) {
-		SCORING_GOALIE = sCORING_GOALIE;
-	}
+    public void setshot_type(String shot_type) {
+        this.shot_type = shot_type;
+    }
 
-	/**
-	 * @return the sCORING_PERIOD
-	 */
-	public String getSCORING_PERIOD() {
-		return SCORING_PERIOD;
-	}
+    public String getscored_goalie() {
+        return scored_goalie;
+    }
 
-	/**
-	 * @param sCORING_PERIOD the sCORING_PERIOD to set
-	 */
-	public void setSCORING_PERIOD(String sCORING_PERIOD) {
-		SCORING_PERIOD = sCORING_PERIOD;
-	}
+    public void setscored_goalie(String scored_goalie) {
+        this.scored_goalie = scored_goalie;
+    }
 
+    public String getgoal_period() {
+        return goal_period;
+    }
+
+    public void setgoal_period(String goal_period) {
+        this.goal_period = goal_period;
+    }
+
+	
 }

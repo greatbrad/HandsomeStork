@@ -1,0 +1,63 @@
+INF,AGG,Aggressor
+INF,BC,Body Checking
+INF,BDG,Boarding
+INF,BM,Bench Minor
+INF,BRS,Broken Stick
+INF,BUTT,Butt Ending
+INF,CC,Cross Checking
+INF,CFB,Checking from Behind
+INF,CHG,Charging
+INF,DE,Dangerous Equipment
+INF,DG,Delay of Game
+INF,ELB,Elbowing
+INF,FI,Fighting
+INF,FLPB,First to Leave the Bench
+INF,FMSK,Face Masking
+INF,FOP,Falling on the Puck
+INF,GLC,Goalie Leaving the Crease
+INF,HB,Head Butting
+INF,HC,Head Contact
+INF,HKG,Hooking
+INF,HO,Holding
+INF,HP,Handling the Puck
+INF,HS,High Sticking
+INF,IE,Illegal Equipment
+INF,IP,Ineligible Player
+INF,INS,Instigator
+INF,INT,Interference
+INF,INTGT,Interferences/Protection of the Goalie
+INF,KNE,Kneeing
+INF,LPB,Leaving Penalty Bench
+INF,PS,Penalty Shot
+INF,RAW,Roughing After the Whistle
+INF,RH,Removes Helmet
+INF,RO,Roughing After the Whistle
+INF,SL,Slashing
+INF,SP,Spearing
+INF,SPOB,Shooting Puck Over the Boards
+INF,TMM,Too Many Men
+INF,TR,Tripping
+INF,TS,Throwing the stack
+INF,TT,Trash Talking
+INF,USC,Unsportsmanlike Conduct
+INF,WUV,Warm Up Violation
+INF,M20,Disputing Call of an Official
+INF,GM20,Disputing Call of an Official
+INF,GM57,Boarding/Body Checking(Major+Game)
+INF,GM71,Head Contact (Major+Game)
+INF,M35,Failure to go directly to the Penalty Bench
+GOALTYPE,ES,Even Strength
+GOALTYPE,SH,Short Handed (1 player)
+GOALTYPE,SH2,Short Handed (2 players)
+GOALTYPE,PP,Power Play
+GAMETYPE,EX,Exhibition
+GAMETYPE,RS,Regular Season
+GAMETYPE,TO,Tournament
+GAMETYPE,PO,PlayOffs
+SHOTTYPE,DEF,Deflection
+SHOTTYPE,SCR,Scramble
+SHOTTYPE,DIR,Direct
+SHOTTYPE,DEK,Deke
+SHOTTYPE,EN,Empty Net
+SHOTTYPE,SO,Shoot Out
+SHOTTYPE,REB,Rebound
